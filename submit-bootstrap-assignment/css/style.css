@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar section css start */
+.menubar{
+    background-color: #eeeee4;
+}
+span{
+    color: #eb8c1f;
+}
+.image-size img{
+    width: 100%;
+}
+#nav-bar{
+    background-color: #eeeee4;
+}
+
+/* navbar section css end  */
+
+/* Product section css start */
+.penguin-card{
+    border: 0;
+}
+.penguin-card img{
+    width: 85%;
+    padding: 30px ;
+    height: 330px;
+    border-radius: 10px;
+    margin: 0px auto;
+    height: 300px;
+    background-color: #f1f3fa;
+}
+.price{
+    font-size: 8px;
+    padding-left: 28px;
+    color: orange;
+}
+.fas{
+   font-size: 15px;
+}
+.btn{
+    background-color:#9a9c1d;
+    border: none;
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 17px;
+    margin-right: 50px;
+    border-radius: 8px;
+    padding: 10px 30px 10px 30px;
+}
+
+        /* Product Section css end  */
+
+        /* About Us section css start */
+#about{
+    margin-top: 80px !important;
+    margin: 15px;
+}
+.desgine .text-desgine{
+    padding-right: 30px;
+}
+.desgine{
+    background-color: #f5f6fa;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.last-images img {
+    width: 100%;
+}
+.services img {
+    width: 15%;
+}
+ /* About Us section css end */
+
+    footer section css start
+h5 {
+    text-align: center;
+}
+
+
+    /* footer section css end  */
+
+/* Use Media Quary */
+
+@media all and (max-width: 768px) {
+    .desgine {
+        display: block!important;
+    }
+    .services img {
+        display: block;
+        margin: 0 auto;
+        width: 25%;
+        margin-bottom: 20px;
+    }
+    .button {
+        text-align: center;
+    }
+    .footer-nav ul {
+        text-align: center;
+    }
+    .footer-nav li {
+        display: inline;
+    }
+    .footer-nav li a {
+        display: inline-block;
+    }
+}
